@@ -36,6 +36,10 @@ console.log('Array con Vanessa:', teachers);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
+teachers.unshift('Sarah');
+console.log('Array con Sarah:', teachers);
+
+
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
 const lewisIndex = null;
